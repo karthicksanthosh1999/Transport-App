@@ -1,0 +1,165 @@
+.home-card {
+    top: 700px;
+    left: 200px;
+    position: absolute;
+    z-index: 1;
+    max-width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width : 600px) {
+    .home-card {
+        position: absolute;
+        gap: 10px;
+        top: 45%;
+        left: 5%;
+        right: 5%;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+.home-card-container {
+    position: relative;
+}
+
+.home-card-content {
+    position: absolute;
+    top: 120px;
+    left: 45px;
+
+    
+}
+
+.home-card-container:hover {
+    transition: transform 2s ease;
+    z-index: 1;
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.home-card-content-h6 {
+    color: #fff;
+}
+
+.home-card-content-h4 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.home-card-content-p {
+    color: #fff;
+}
+
+/* Parallax Effect */
+.parallax {
+    /* The image used */
+    background-image: url(../../asserts/AboutPage/pralleximage.jpg);
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Our Services */
+.home-services-icon {
+    height: 70px;
+    width: 70px;
+}
+
+.home-service-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-customer-swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.home-customer-swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-customer-swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.home-slide-container {
+    position: relative;
+}
+
+.home-slider-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.home-slide-overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #940B92;
+}
+
+.home-slide-container:hover .home-slide-overlay {
+    opacity: 0.5;
+}
+
+.home-slide-quots {
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    right: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.home-input {
+    height: 60px;
+    max-width: 290px;
+    margin: 10px !important;
+    margin-bottom: 30px;
+}
+
+.home-underline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border: 2px solid #940B92;
+    margin: 8px 0 25px 0;
+}
+
+.home-form-img {
+    background-color: #fff;
+}

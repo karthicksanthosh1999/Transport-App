@@ -1,0 +1,81 @@
+.about-container {
+    /* From https://css.glass */
+    height: 40vh;
+    background-image: url(../../asserts/AboutPage/abouttruck.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    position: relative;
+}
+.about-div{
+    font-size: 2.7rem;
+    color: #EAEDF0;
+    position: absolute;
+    right: 70px;
+    bottom: 30%;
+    /* float: right;
+    padding: 4rem; */
+
+}
+.about-breadcrumb{
+    background: #F8F9F9;
+    border: 1px solid #E95793;
+    padding: 15px 0px 15px 10px;
+}
+.truck-size{
+    max-height: 200px;
+    max-width: 280px;
+    margin-right: 30px;
+}
+.big-truck{
+    max-width: 100%;
+}
+
+.about-hr{
+    border-bottom: 4px solid #E95793;
+    width: 60px;
+    margin-top: 10px;
+}
+.about-tab-img{
+    height: 120px;
+    width: 120px;
+}
+.about-tab-title{
+    text-align: left;
+    font-weight: bold;
+    color: #E95793;
+}
+.about-tab-sub{
+    font-weight: bold;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.about-tab-p{
+    text-align: left;
+}
+
+/* [1] The container */
+.img-hover-zoom {
+    height: auto; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+
+  .about-companyunderline{
+    margin-top: 5px;
+    border: 1px solid #610C9F;
+    width: 60px;
+  }

@@ -1,0 +1,19 @@
+.sp-icon-head{
+    display: flex;
+}
+.sp-icon-text{
+    margin-left: 10px;
+    color: #bfbfbf;
+}
+.sp-icon-child-text{
+    color: #7288bb;
+}
+.sp-icon-p{
+    margin-top: 10px;
+
+}
+/* .sp-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */

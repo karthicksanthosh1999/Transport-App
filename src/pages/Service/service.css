@@ -1,0 +1,76 @@
+.service-hero-img {
+    width: 100%;
+    height: 250px;
+    background-image: url('../../asserts/ServicePage/heroimg.jpg');
+    background-size: 100% 100%;
+    border: 0;
+}
+
+.service-icons {
+    height: 80px;
+    width: 80px;
+}
+
+.services-title {
+    color: #DA0C81;
+}
+
+.services-sub {
+    color: #E95793;
+}
+
+.service-card-container{
+    width: 100%;
+    position: relative;
+}
+.service-card-img{
+    width: 100%;
+    height: 380px;
+}
+.service-card-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: #2052e8;
+    opacity: .8;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.service-card-txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    font-size: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.service-card-container:hover .service-card-overlay{
+    height: 100%;
+}
+.service-parallex{
+    margin-top: 80px;
+    min-height: 500px; 
+    background-image: url(../../asserts/ServicePage/paralax.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.service-img-container{
+   height: 600px;
+   background-image: url(../../asserts//ServicePage/container.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.service-parallex-h4{
+    color: #fff;
+    font-size: 40px;
+    padding-top: 100px;
+}

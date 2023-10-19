@@ -1,0 +1,23 @@
+.scroll-btn{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 5%;
+    right: 6%;
+    border: 1px solid #000;
+    z-index: 1;
+}
+
+.scroll-btn:hover{
+    border: 2px solid #5b07f7;
+    color: #5b07f7;
+}
+
+@media only screen and (max-width: 600px){
+        .scroll-btn{
+            display: none;
+        }
+}

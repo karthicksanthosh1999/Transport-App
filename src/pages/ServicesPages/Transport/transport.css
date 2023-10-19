@@ -1,0 +1,19 @@
+.t-nav-h{
+    text-align: start;
+    color: #610C9F;
+}
+.t-img1{
+    width: 100%;
+}
+
+.t-img2, .t-img1{
+    height: auto;
+    max-width: 410px;
+}
+.t-contant-h{
+    color: #610C9F;
+}
+.t-contant-p{
+    color: #E95793;
+    text-align: start;
+}
